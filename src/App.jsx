@@ -1,13 +1,17 @@
 import Header from "./components/Header";
+import Main from "./components/Main/Main";
 import Sidebar from "./components/Sidebar";
 
 const App = () => {
   return (
     <div className="px-4 pt-2 text-white">
       <Header />
-      <div>
+      <div className="flex">
         <div className="hidden lg:block">
           <Sidebar />
+        </div>
+        <div className="flex-1">
+          <Main />
         </div>
       </div>
     </div>
