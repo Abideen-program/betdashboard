@@ -2,7 +2,7 @@ import { clx } from "../../Utils/clx";
 
 const GrantItem = ({ classname, title, amount, num }) => {
   const wrapperClass = clx(
-    "rounded-3xl flex flex-col gap-3 p-5 text-[#949A9E] w-1/3",
+    "rounded-3xl flex flex-col gap-3 p-5 text-[#949A9E] w-full",
     classname
   );
 

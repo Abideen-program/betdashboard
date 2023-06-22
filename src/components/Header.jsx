@@ -4,7 +4,7 @@ import { RiNotification3Line } from "react-icons/ri";
 
 function Header() {
   return (
-    <div className="border-b-2 border-[#1F1F1F] h-[70px] flex items-center justify-between">
+    <div className="border-b-2 border-[#1F1F1F] h-[70px] w-full flex items-center justify-between">
       <div>
         <img
           src="/images/bet.png"
