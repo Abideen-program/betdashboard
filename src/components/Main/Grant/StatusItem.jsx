@@ -7,11 +7,7 @@ const StatusItem = ({ date, type, amount, action, declined }) => {
       </div>
 
       <div>
-        <p
-          className={`${declined ? "text-[red]" : ""} font-bold`}
-        >
-          ${amount}
-        </p>
+        <p className={`${declined ? "text-[red]" : ""} font-bold`}>${amount}</p>
       </div>
 
       <div>

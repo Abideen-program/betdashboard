@@ -1,6 +1,7 @@
 import Categories from "./Categories";
 import GrantItem from "./GrantItem";
 import GrantStatus from "./GrantStatus";
+import History from "./History";
 
 const Grant = () => {
   return (
@@ -33,6 +34,11 @@ const Grant = () => {
       <div>
         <p className="text-[#949A9E] font-bold mb-2">Grant Status</p>
         <GrantStatus />
+      </div>
+
+      <div className="">
+        <p className="text-[#949A9E] font-bold mb-2">Grant History</p>
+        <History />
       </div>
     </div>
   );

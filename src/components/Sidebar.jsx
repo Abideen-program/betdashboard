@@ -4,7 +4,7 @@ import { BiSolidDollarCircle, BiLogOutCircle } from "react-icons/bi";
 
 const Sidebar = () => {
   return (
-    <div className="border-r-2 border-[#1F1F1F] w-[230px] h-screen max-h-screen p-3 flex flex-col gap-5">
+    <div className="border-r-2 border-[#1F1F1F] w-[230px] h-[calc(100vh_-_70px)] p-3 flex flex-col gap-5">
       <div className="text-[#CACCCE] flex items-center gap-2 bg-[#0D0D0D] px-2 py-3 rounded-md border-b border-[#1F1F1F]">
         <BiSolidDashboard />
         <p className="font-semibold text-sm">Dashboard</p>
@@ -34,7 +34,6 @@ const Sidebar = () => {
         <FaUser />
         <p className="font-semibold text-sm">Profile setting</p>
       </div>
-
 
       <div className="text-[#686E73] flex items-center gap-2 px-2 py-3 my-auto">
         <BiLogOutCircle className="text-red-600 text-lg" />
