@@ -29,8 +29,8 @@ function Header({ onToggle }) {
           <div className="bg-red-600 h-2 w-2 absolute top-0 right-0 rounded-full"></div>
         </div>
 
-        <div className="p-[10px] rounded-full bg-[#1F1F1F]">
-          <p className="text-[#AFB3B6] text-xl font-bold">GA</p>
+        <div className="p-[8px] md:p-[10px] rounded-full bg-[#1F1F1F]">
+          <p className="text-[#AFB3B6] text-base md:text-xl font-bold">GA</p>
         </div>
 
         <div

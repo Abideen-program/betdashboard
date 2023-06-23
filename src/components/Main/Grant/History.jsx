@@ -9,7 +9,7 @@ const thClass = clx(
 const tdClass = clx("border-r-2 border-[#1F1F1F] px-2 py-3 text-[#CACCCE]");
 const lastTd = clx("px-2 py-3 text-[#CACCCE]");
 const detailsClass = clx(
-  "text-center text-[10px] bg-[#14B151] p-1 text-white rounded-full"
+  "text-center text-[10px] bg-[#14B151] p-2 md:p-1 text-white rounded-full"
 );
 
 const History = () => {
