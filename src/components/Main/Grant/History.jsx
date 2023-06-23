@@ -9,8 +9,8 @@ const lastTd = clx("border-[#1F1F1F] px-2 py-3 text-[#CACCCE]");
 
 const History = () => {
   return (
-    <div className="bg-[#0D0D0D] p-6 rounded-3xl">
-      <table className="">
+    <div className="bg-[#0D0D0D] p-6 rounded-3xl overflow-hidden">
+      <table className="table-auto w-full">
         <tr className={`border-b-2 ${trClass}`}>
           <th className={`${thClass}`}>Grant Category</th>
           <th className={`${thClass}`}>Grant Name</th>
