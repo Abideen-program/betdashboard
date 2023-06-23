@@ -36,9 +36,9 @@ const Grant = () => {
         <GrantStatus />
       </div>
 
-      <div className="">
+      <div className="border border-red-600 overflow-scroll">
         <p className="text-[#949A9E] font-bold mb-2">Grant History</p>
-        <History />
+        {/* <History /> */}
       </div>
     </div>
   );

@@ -1,8 +1,9 @@
 import { FaAngleDown } from "react-icons/fa";
 import { IoSettingsOutline } from "react-icons/io5";
 import { RiNotification3Line } from "react-icons/ri";
+import { AiOutlineMenuUnfold } from "react-icons/ai";
 
-function Header() {
+function Header({ onToggle }) {
   return (
     <div className="border-b-2 border-[#1F1F1F] h-[70px] w-full flex items-center justify-between">
       <div>
@@ -30,6 +31,13 @@ function Header() {
 
         <div className="p-[10px] rounded-full bg-[#1F1F1F]">
           <p className="text-[#AFB3B6] text-xl font-bold">GA</p>
+        </div>
+
+        <div
+          className="block lg:hidden cursor-pointer"
+          onClick={() => onToggle()}
+        >
+          <AiOutlineMenuUnfold className="text-[#AFB3B6] text-2xl font-bold" />
         </div>
       </div>
     </div>
