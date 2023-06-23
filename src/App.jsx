@@ -21,7 +21,7 @@ const App = () => {
         >
           <Sidebar />
         </div>
-        <div className="flex-1">
+        <div className="flex-1 w-full">
           <Main />
         </div>
       </div>

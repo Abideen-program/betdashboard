@@ -7,7 +7,7 @@ const Grant = () => {
   return (
     <div>
       <div className="flex flex-col gap-6">
-        <div className="flex flex-col md:flex-row items-center justify-between gap-3">
+        <div className="flex flex-col md:flex-row items-center justify-between gap-3 w-full">
           <GrantItem
             classname={"bg-[#0D0D0D]"}
             title={"Total Grant Disbursed"}
@@ -37,7 +37,7 @@ const Grant = () => {
           <GrantStatus />
         </div>
 
-        <div className="border border-red-600">
+        <div>
           <p className="text-[#949A9E] font-bold mb-2">Grant History</p>
           <History />
         </div>
