@@ -3,7 +3,7 @@ import { IoSettingsOutline } from "react-icons/io5";
 import { RiNotification3Line } from "react-icons/ri";
 import { AiOutlineMenuUnfold } from "react-icons/ai";
 
-function Header({ onToggle }) {
+const Header = ({ onToggle }) => {
   return (
     <div className="border-b-2 border-[#1F1F1F] h-[70px] w-full flex items-center justify-between">
       <div>
